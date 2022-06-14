@@ -1,0 +1,14 @@
+[
+    {
+      "name": "project1",
+      "live": "https://easel.netlify.app/",
+      "git": "https://github.com/JFWebb/easel",
+      "image": "https://github.com/JFWebb/easel/raw/main/Images/HomeImage.png"
+    },
+    {
+      "name": "project2",
+      "live": "https://outlawcreator.herokuapp.com/",
+      "git": "https://github.com/JFWebb/outlawcreator",
+      "image": "https://camo.githubusercontent.com/45fd6aa3e06ab6c3aae1a3724fd4a33d3f75d5f329c905202d80db3c2354001b/68747470733a2f2f692e696d6775722e636f6d2f4d576153446b452e706e67"
+    }
+  ]
