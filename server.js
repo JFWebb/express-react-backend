@@ -26,13 +26,25 @@ app.use(cors());
 ///////////////////////////////
 // MOUNT ROUTES
 ///////////////////////////////
+// home route
 app.get('/', (req, res) => {
     res.send("Hello World");
 });
+
+// rout eto retrieve projects
+app.get('/projects', (req, res) => {
+    res.send(projects);
+});
+
+// route for retrieving about info
+app.get('/about', (req, res) => {
+    res.send(about);
+});
+
 
 ///////////////////////////////
 // Tell Express to  Listen
 ///////////////////////////////
 app.listen(PORT, () => {
-    console.log(`Express is listneing on port ${PORT}`)
+    console.log(`Express is listening on port ${PORT}`)
 });
